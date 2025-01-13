@@ -1,6 +1,7 @@
 import Navigation from "@/components/Navigation";
 import CourseCard from "@/components/CourseCard";
 import Newsletter from "@/components/Newsletter";
+import { Button } from "@/components/ui/button";
 
 const Index = () => {
   return (
