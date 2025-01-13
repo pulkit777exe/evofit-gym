@@ -3,7 +3,7 @@ export default function Contact() {
     <div id="contact" className="items-center justify-center">
       <div className="bg-[#ded8c3] text-black py-24 px-8 rounded-lg shadow-lg">
         <div className="max-w-4xl mx-auto text-center">
-          <h1 className="text-5xl font-light tracking-wider mb-8">CONTACT US</h1>
+          <h1 className="text-5xl font-bold tracking-wider mb-8">CONTACT US</h1>
           <p className="text-xl font-light tracking-wide mb-8">
             Have questions? We're here to help. Reach out to us through any of the channels below.
           </p>
