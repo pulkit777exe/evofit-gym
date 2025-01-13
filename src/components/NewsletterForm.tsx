@@ -14,7 +14,7 @@ const NewsletterForm = () => {
   };
 
   return (
-    <form onSubmit={handleSubmit} className="w-full max-w-md">
+    <form onSubmit={handleSubmit} className="w-screen max-w-md">
       <div className="flex gap-2">
         <input
           type="email"
@@ -26,7 +26,7 @@ const NewsletterForm = () => {
         />
         <button
           type="submit"
-          className="px-6 py-3 bg-gym-light text-gym-dark rounded-lg font-semibold hover:bg-gym-accent transition-colors flex items-center gap-2"
+          className="px-4 py-3 bg-gym-light text-gym-dark rounded-lg font-semibold hover:bg-gym-accent transition-colors flex items-center gap-2 md:px-6 md:py-3"
         >
           Subscribe <Send className="w-4 h-4" />
         </button>

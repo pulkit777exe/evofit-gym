@@ -4,7 +4,7 @@ export default function Discovery(){
   return (
     <section className="py-16 md:py-32 bg-gym-darker">
       <div className="flex flex-col md:flex-row justify-between items-center max-w-7xl mx-auto px-6 md:px-12 space-y-8 md:space-y-0">
-        <div className="rounded-lg overflow-hidden shadow-2xl w-full md:w-1/2 sm:w-1/4">
+        <div className="rounded-lg overflow-hidden shadow-2xl w-full md:w-1/2">
           <img src="https://images.squarespace-cdn.com/content/v1/588f4b68197aeae36a70f70b/89b1c2fc-aabc-4972-9f8d-af2be6469129/DSC06984.jpg?format=1500w" alt="" className="w-full h-auto" />
         </div>
         <div className="text-center space-y-6 max-w-3xl mx-auto md:mx-0 md:text-left md:w-1/2">
