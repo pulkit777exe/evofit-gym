@@ -20,7 +20,7 @@ export default function Index(){
       <MarqueeElement />
       <Discovery />
       <Contact />
-      {/* <Map /> */}
+      <Map />
       <Newsletter />
     </div>
   );
