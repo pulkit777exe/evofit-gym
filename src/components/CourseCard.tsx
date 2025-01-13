@@ -13,7 +13,7 @@ const CourseCard = ({ title, description, className = "" }: CourseCardProps) => 
       <p className="text-gym-accent leading-relaxed">{description}</p>
       <Button 
         variant="outline" 
-        className="text-gym-light border-gym-light hover:bg-gym-light hover:text-gym-dark transition-all duration-300"
+        className="text-gym-dark border-gym-light hover:bg-gym-light hover:text-gym-dark transition-all duration-300"
       >
         LEARN MORE
       </Button>
