@@ -2,7 +2,7 @@ import CourseCard from "./CourseCard";
 
 export default function Courses() {
     return (
-        <section id="classic" className="py-32 bg-gym-dark">
+        <section id="classic" className="py-32 w-screen bg-gym-dark">
         <div className="max-w-7xl mx-auto px-6">
           <div className="text-center mb-16 space-y-4">
             <h2 className="text-4xl font-bold text-white">CLASSIC COURSES</h2>
