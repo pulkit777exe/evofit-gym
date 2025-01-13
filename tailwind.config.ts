@@ -25,10 +25,10 @@ export default {
         background: "hsl(var(--background))",
         foreground: "hsl(var(--foreground))",
         gym: {
-          dark: "#1A1F2C",
-          darker: "#221F26",
-          light: "#F1F1F1",
-          accent: "#D6BCFA",
+          dark: "#222222",    // Updated to greyish black
+          darker: "#1A1A1A",  // Even darker greyish black
+          light: "#F1F1F1",   // Cream color
+          accent: "#E5E5E5",  // Light cream accent
         },
         primary: {
           DEFAULT: "hsl(var(--primary))",

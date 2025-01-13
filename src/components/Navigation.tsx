@@ -19,14 +19,14 @@ const Navigation = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           <div className="flex-shrink-0">
-            <span className="text-white text-2xl font-bold">LOCOMOTION</span>
+            <span className="text-gym-light text-2xl font-bold">LOCOMOTION</span>
           </div>
           
           {/* Mobile menu button */}
           <div className="md:hidden">
             <button
               onClick={() => setIsOpen(!isOpen)}
-              className="text-gray-300 hover:text-white"
+              className="text-gym-accent hover:text-gym-light"
             >
               {isOpen ? <X size={24} /> : <Menu size={24} />}
             </button>
@@ -38,7 +38,7 @@ const Navigation = () => {
               <a
                 key={item.name}
                 href={item.href}
-                className="text-gray-300 hover:text-white text-sm transition-colors duration-200"
+                className="text-gym-accent hover:text-gym-light text-sm transition-colors duration-200"
               >
                 {item.name}
               </a>
@@ -55,7 +55,7 @@ const Navigation = () => {
               <a
                 key={item.name}
                 href={item.href}
-                className="text-gray-300 hover:text-white block px-3 py-2 text-base"
+                className="text-gym-accent hover:text-gym-light block px-3 py-2 text-base"
                 onClick={() => setIsOpen(false)}
               >
                 {item.name}
