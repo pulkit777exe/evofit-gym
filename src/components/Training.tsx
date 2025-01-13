@@ -2,7 +2,7 @@ import { Button } from "./ui/button"
 
 export default function Training(){
     return (
-        <section className="py-32 w-screen bg-gym-dark">
+        <section className="py-32 w-full bg-gym-dark">
         <div className="max-w-7xl mx-auto px-6">
           <div className="grid md:grid-cols-2 gap-16 items-center">
             <div className="space-y-6">

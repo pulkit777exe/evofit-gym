@@ -11,7 +11,7 @@ import MarqueeElement from "@/components/MarqueeElement";
 
 export default function Index(){
   return (
-    <div className="bg-gym-dark min-h-screen">
+    <div className="bg-gym-dark min-w-screen min-h-screen">
       <Navigation />
       <Hero />
       <Courses />

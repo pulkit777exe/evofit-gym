@@ -2,7 +2,7 @@ import CourseCard from "./CourseCard";
 
 export default function Signature(){
     return (
-        <section id="signature" className="py-32 w-screen bg-gym-darker">
+        <section id="signature" className="py-32 w-full bg-gym-darker">
         <div className="max-w-7xl mx-auto px-6">
           <div className="text-center mb-16 space-y-4">
             <h2 className="text-4xl font-bold text-white">SIGNATURE COURSES</h2>

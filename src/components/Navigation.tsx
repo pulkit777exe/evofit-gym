@@ -1,21 +1,20 @@
 import { useState } from "react";
+import { useNavigate } from "react-router-dom";
 import { Menu, X } from "lucide-react";
 
 const Navigation = () => {
+  const navigate = useNavigate();
   const [isOpen, setIsOpen] = useState(false);
 
   const menuItems = [
-    { name: "SOLO", href: "#" },
-    { name: "SIGNATURE COURSES", href: "#signature" },
-    { name: "CLASSIC COURSES", href: "#classic" },
-    { name: "CLINICAL", href: "#" },
-    { name: "PRICES", href: "#" },
-    { name: "EVENTS", href: "#" },
-    { name: "CONTACT", href: "#contact" },
+    { name: "HOME", navigateTo: "/home" },
+    { name: "TRAINERS", navigateTo: "/trainers" },
+    { name: "MEMBERSHIP", navigateTo: "/membership-plans" },
+    { name: "CONTACT US", navigateTo: "/contact" },
   ];
 
   return (
-    <nav className="fixed w-screen z-50 bg-gym-dark/90 backdrop-blur-sm">
+    <nav className="fixed w-full z-50 bg-gym-dark/90 backdrop-blur-sm">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           <div className="flex-shrink-0">
@@ -31,12 +30,12 @@ const Navigation = () => {
             </button>
           </div>
           
-          <div className="hidden lg:flex lg:items-center lg:space-x-6">
+          <div className="hidden lg:flex lg:items-center lg:space-x-6 cursor-pointer">
             {menuItems.map((item) => (
               <a
                 key={item.name}
-                href={item.href}
-                className="text-gym-accent hover:text-gym-light text-sm transition-colors duration-200"
+                className="text-gym-accent hover:text-gym-light text-sm transition-colors duration-200 hover:bg-gym-light/10 px-3 py-2 rounded-md"
+                onClick={() => navigate(item.navigateTo)}
               >
                 {item.name}
               </a>
@@ -51,9 +50,11 @@ const Navigation = () => {
             {menuItems.map((item) => (
               <a
                 key={item.name}
-                href={item.href}
-                className="text-gym-accent hover:text-gym-light block px-3 py-2 text-base"
-                onClick={() => setIsOpen(false)}
+                className="text-gym-accent hover:text-gym-light block px-3 py-2 text-base transition-colors duration-200 hover:bg-gym-light/10 rounded-md"
+                onClick={() => {
+                  setIsOpen(false);
+                  navigate(item.navigateTo);
+                }}
               >
                 {item.name}
               </a>

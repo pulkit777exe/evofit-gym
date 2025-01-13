@@ -3,10 +3,10 @@ import { Medal, Clock, Users } from 'lucide-react';
 
 const Trainer = () => {
     return (
-        <div className='bg-gym-dark min-h-screen'>
+        <div className='bg-gym-dark min-h-screen w-screen'>
             <Navigation />
             <div className="max-w-7xl mx-auto text-gym-light bg-gym-dark min-h-screen p-8 md:p-16">
-                <h2 className="text-4xl font-bold text-center mb-16">Meet Your Trainer</h2>
+                <h2 className="text-4xl font-bold text-center mb-16 items-center">Meet Your Trainer</h2>
                 <div className="grid md:grid-cols-2 gap-12 items-center">
                     <div className="relative">
                         <div className="aspect-[3/4] rounded-lg overflow-hidden">
