@@ -69,7 +69,10 @@ export default function Booking() {
              <Phone size={24} />
              <h3 className="text-xl font-bold tracking-wider">PHONE</h3>
            </div>
-           <p className="text-gray-300 pl-10">+91 XXXXXXXXX</p>
+           <p className="text-gray-300 pl-10">+91 9350856435 <br />
+           +91 8287954863 <br />
+           +91 9540396782
+            </p>
          </div>
          <div>
            <div className="flex items-center gap-4 mb-4">
