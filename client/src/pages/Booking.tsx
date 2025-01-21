@@ -25,7 +25,7 @@ export default function Booking() {
                     <Mail size={24} />
                     <h3 className="text-xl font-bold tracking-wider">EMAIL</h3>
                   </div>
-                  <p className="text-gray-300 pl-10">info@evofitgym.com</p>
+                  <p className="text-gray-300 pl-10">evofitgym0@gmail.com</p>
                 </div>
             </div>
 
@@ -54,9 +54,9 @@ export default function Booking() {
                     <h3 className="text-xl font-bold tracking-wider">HOURS</h3>
                   </div>
                   <div className="text-gray-300 pl-10">
-                    <p className="mb-2">Monday - Friday: 6:00 AM - 10:00 PM</p>
-                    <p className="mb-2">Saturday: 8:00 AM - 8:00 PM</p>
-                    <p>Sunday: 8:00 AM - 6:00 PM</p>
+                    <p className="mb-2">Morning: 5:00 AM - 10:00 AM</p>
+                    <p className="mb-2">Evening: 4:00 PM - 10:00 PM</p>
+                    <p>Sunday: 4:00 PM - 10:00 PM (Only Evening)</p>
                   </div>
                 </div>
               </div>

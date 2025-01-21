@@ -5,20 +5,20 @@ import Navigation from '@/components/Navigation';
 const plans = [
     {
       name: 'Monthly',
-      price: 1200,
+      price: 1500,
       features: ['Access to gym equipment', 'Locker room access', 'All premium access for full month'],
       icon: <Dumbbell className="w-6 h-6 text-amber-500" />
     },
     {
       name: 'Half-Yearly',
-      price: 5000,
+      price: 4800,
       features: ['All Basic features', 'Personal trainer consultation', 'Nutrition guidance'],
       icon: <Crown className="w-6 h-6 text-amber-500" />
     },
     {
       name: 'Yearly',
-      price: 8000,
-      features: ['All Premium features', '24/7 gym access', 'Private training sessions'],
+      price: 7200,
+      features: ['All Premium features', 'Private training sessions'],
       icon: <Crown className="w-6 h-6 text-amber-500" />
     }
 ];
