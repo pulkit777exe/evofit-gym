@@ -16,8 +16,8 @@ function MembershipPlan({ name, price, features, icon }: MembershipPlanProps) {
         <h3 className="text-2xl font-bold">{name}</h3>
       </div>
       <div className="mb-6">
-        <span className="text-4xl font-bold">${price}</span>
-        <span className="text-gray-500">/month</span>
+        <span className="text-4xl font-bold">₹{price}</span>
+        <span className="text-gray-500">/per head</span>
       </div>
       <ul className="space-y-4 flex-grow">
         {features.map((feature: string, index: number) => (

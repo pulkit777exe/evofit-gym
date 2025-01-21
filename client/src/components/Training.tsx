@@ -1,6 +1,11 @@
+import { useNavigate } from "react-router-dom"
 import { Button } from "./ui/button"
 
 export default function Training(){
+  const navigate = useNavigate();
+  const handleClick = () => {
+    navigate("/contact");
+  }
     return (
         <section className="py-32 w-full bg-gym-dark">
         <div className="max-w-7xl mx-auto px-6">
@@ -12,8 +17,9 @@ export default function Training(){
                 personal training combines the knowledge of a solid team with the discipline of
                 a tailor-made approach.
               </p>
-              <Button variant="outline" className="text-gym-dark border-gym-accent hover:bg-gym-accent hover:text-gym-dark transition-all duration-300">
-                LEARN MORE
+              <p className="text-gray-300">To learn more contact our gym trainer:- </p>
+              <Button onClick={handleClick} variant="outline" className="text-gym-dark border-gym-accent hover:bg-gym-accent hover:text-gym-dark transition-all duration-300">
+                CONTACT OUR TRAINER
               </Button>
             </div>
             <div className="relative h-[500px] rounded-lg overflow-hidden">
